@@ -1,0 +1,70 @@
+<ion-header title="Home">
+  <app-header></app-header>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div class="titulo">
+    <h1>Bienvenidos a Nutriplan</h1>
+  </div>
+  <div class="carrusel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            id="img1"
+            src="../../assets/icon/comida saludable 3.jpg"
+            class="d-block"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            id="img2"
+            src="../../assets/icon/comida saludable 2.jpg"
+            class="d-block"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            id="img3"
+            src="../../assets/icon/foto comida.webp"
+            class="d-block"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        style="color: azure"
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span
+          style="color: azure"
+          class="carousel-control-prev-icon"
+          aria-hidden="true"
+        ></span>
+        <span style="color: azure" class="visually-hidden">Previous</span>
+      </button>
+      <button
+        style="color: azure"
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span
+          style="color: azure"
+          class="carousel-control-next-icon"
+          aria-hidden="true"
+        ></span>
+        <span style="color: azure" class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="descripcion">
+    <p>Esta pagina fue creada para empezar a vivir una vida mas saludable, teniendo una buena alimentacion</p>
+  </div>
+  <app-footer></app-footer>
+</ion-content>
